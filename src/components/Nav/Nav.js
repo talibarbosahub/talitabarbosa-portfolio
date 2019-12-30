@@ -1,23 +1,14 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav';  
+import Nav from 'react-bootstrap/Nav';
 import './nav.css'
 
 const NavStyle = () => (
-    <Nav className="justify-content-end nav-style" activeKey="/home">
-      <Nav.Item>
-      <Nav.Link eventKey="link-1">Habilidades</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-       <Nav.Link href="/home">Projetos</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-2">Sobre</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-2">Contato</Nav.Link>
-      </Nav.Item>
-
-    </Nav>
+  <Nav className="justify-content-end nav-style" >
+    <Nav.Link href="#Habilidades">Habilidades</Nav.Link>
+    <Nav.Link href="#Sobre">Sobre</Nav.Link>
+    <Nav.Link href="#Portifolio">Projetos</Nav.Link>
+    <Nav.Link href="#Footer">Contato</Nav.Link>
+  </Nav>
 
 )
 
