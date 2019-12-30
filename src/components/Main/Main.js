@@ -5,7 +5,7 @@ import './main.css'
 
 const Habilidades = () => (
     <Fragment>
-        <div className="container-habilities">
+        <div id="Habilidades"className="container-habilities">
             <h3>Habilidades</h3>
             <div>
                 <div class="habilities">
@@ -54,7 +54,7 @@ const Habilidades = () => (
 const curriculo = require("../../assets/Talita_Barbosa_CV.pdf")
 
 export const Sobre = () => (
-    <div className="section_about">
+    <div id="Sobre"className="section_about">
         <h3 >Olá, muito prazer!</h3>
             <p className="about" >
                     Sou uma desenvolvedora focada e organizada, contribui durante 10 anos na área  comercial e TI o que me possibilitou desenvolver soft skills tais como trabalho em equipe e planejamento estratégico. Estou em transição de carreira para desenvolvimento Front-end pois descobri vocação e entusiasmo pela profissão.

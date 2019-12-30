@@ -20,6 +20,7 @@
 
 .code-icon{
     color: white;
+    font: 2rem;
 }
 
 @media (max-width: 768px){

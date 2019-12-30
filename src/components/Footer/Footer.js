@@ -3,7 +3,7 @@ import './footer.css'
 
 const Footer = () => (
     <Fragment>
-        <div>
+        <div id="Footer">
             <div className="informations">
             <span>
                     <p className="autor__media">Encontre-me nas redes sociais</p>
