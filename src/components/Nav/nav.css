@@ -1,0 +1,26 @@
+.nav-style {
+    background-color: #393e46;
+    width: 100%;
+   
+}
+
+.nav-link {
+    color:white;
+   
+}
+
+.nav-link:hover{
+    background-color: #00ADB5;
+    color:#0E3150;
+    font-weight: bold;
+    
+}
+
+@media (max-width:320px){
+    .nav-link{font-size: 0.7rem;
+    }
+    .nav {
+        flex-wrap: nowrap;
+    }
+    
+}

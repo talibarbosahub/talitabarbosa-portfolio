@@ -1,0 +1,23 @@
+.img-card{
+    object-fit: cover;
+    object-position: top;
+    height: 40vh;
+}
+
+.cards-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 50px;
+    padding-bottom: 15px;
+}
+
+.section_portifolio{
+    text-align: center;
+}
+
+@media (max-width:320px){
+    .card {margin-top: 10px;
+    }
+    
+}

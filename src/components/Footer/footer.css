@@ -1,0 +1,38 @@
+.informations{
+    background-color: #00adb5;
+    color: white;  
+    display: flex;  
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.autor__media{
+    color:white;
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-footer{
+    font-size: 3rem;
+    margin-right: 5px;
+    color: #EEEEEE;
+}
+
+.icon-footer:hover{
+    color:#393E46;
+}
+
+
+.copyright {
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #0e3150;
+    color: white;
+}
+            

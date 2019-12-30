@@ -1,0 +1,67 @@
+.habilities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #0e3150;
+    padding-bottom: 5%;
+
+}
+
+.section {
+    color: #0e3150;
+    text-align: center;
+}
+
+.container-habilities{
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.section_about{
+        background-color: #00adb5;
+        color: white;
+        padding-bottom: 5%; 
+         
+}
+
+.about {
+    padding: 0% 20%;
+    text-align: center;
+}
+
+.link {
+    color: #393E46;
+}
+
+.link:hover {
+   background-color: #eeeeee;
+   border-radius: 3px;
+   text-decoration: none;
+}
+
+.curriculo {
+    padding-top: 20px;
+}
+.icon {
+    font-size: 3rem;
+}
+
+.btn {
+    background-color: #00ADB5;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #0e3150;
+}
+
+@media (max-width:320px){
+    .icon {
+        font-size: 2.4rem;
+    }
+    .habilities {
+        padding: 20px;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,33 @@
+.header-style {
+    background-color:#00adb5;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    padding: 3rem;
+}
+.profile{
+    height: 50vh;
+    margin-bottom: 30px;
+    
+}
+
+/* .break {
+    max-width: 20vw;
+    border: 1px solid;
+    color:#0e3150;
+} */
+
+
+.code-icon{
+    color: white;
+}
+
+@media (max-width: 768px){
+    .profile {
+        max-height: 80vh;
+    }   
+    h1, h2 {
+            font-size: 2rem;
+        
+    }
+}
