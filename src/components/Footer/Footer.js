@@ -18,7 +18,7 @@ const Footer = () => (
         </div>
         </div>
     <div className="copyright">
-        Copyright © Portifólio Talita Barbosa 2019 - Developed with React & Bootstrap
+        Copyright © Portfólio Talita Barbosa 2019 - Developed with React & Bootstrap
         </div>
     </Fragment >
 )

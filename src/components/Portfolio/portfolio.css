@@ -7,7 +7,7 @@
 .cards-projetos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px 50px;
     padding-bottom: 15px;
 }
@@ -16,8 +16,19 @@
     text-align: center;
 }
 
-@media (max-width:320px){
+@media (max-width:768px){
     .card {margin-top: 10px;
+    }
+    
+}
+
+@media (min-width:1024px){
+    .cards-projetos {
+        flex-wrap: nowrap;
+        
+    }
+    .card {
+        margin-right: 10px;
     }
     
 }

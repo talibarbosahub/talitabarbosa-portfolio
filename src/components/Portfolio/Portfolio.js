@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
 import Card from 'react-bootstrap/Card'
-import './portifolio.css'
 import Example from './Modal'
-import './portifolio.css'
+import './portfolio.css'
 
 
 
@@ -11,7 +10,7 @@ const img2 = require("../../assets/To_do_list_js.png")
 const img3 = require("../../assets/Anessa.png")
 const img4 = require("../../assets/Acessibilidade_na _web.png")
 
-const Portifolio = (props) => (
+const Portfolio = (props) => (
 
   <Fragment>
     <div id="Portifolio"className="section_portifolio">
@@ -70,7 +69,7 @@ const Portifolio = (props) => (
             </Card.Text>
             <Example
               title="Acessibilidade na web"
-              texto="Página da web com intuido de diseminar informações sobre o tema de Acssibilidade na web e diretrizes de como fazer sites mais acessíveis para usuários com necessidades especiais. Eleita pela banca examinadora como um dos 4 melhores projetos da turma 8 do Bootcamp da Reprograma. Desenvolvida com React-Bootstrap "
+              texto="Página da web com intuito de disseminar informações sobre o tema de Acessibilidade na web e diretrizes de como fazer sites mais acessíveis para usuários com necessidades especiais. Eleita pela banca examinadora como um dos 4 melhores projetos da turma 8 do Bootcamp da Reprograma. Desenvolvida com React-Bootstrap"
               site="https://acessibilidade-web.netlify.com/"
               btntitle="Ver site" />
           </Card.Body>
@@ -83,4 +82,4 @@ const Portifolio = (props) => (
 )
 
 
-export default Portifolio
+export default Portfolio

@@ -55,14 +55,18 @@ const curriculo = require("../../assets/Talita_Barbosa_CV.pdf")
 
 export const Sobre = () => (
     <div id="Sobre"className="section_about">
-        <h3 >Olá, muito prazer!</h3>
-            <p className="about" >
-                    Sou uma desenvolvedora focada e organizada, contribui durante 10 anos na área  comercial e TI o que me possibilitou desenvolver soft skills tais como trabalho em equipe e planejamento estratégico. Estou em transição de carreira para desenvolvimento Front-end pois descobri vocação e entusiasmo pela profissão.
-                    Participei do Bootcamp integral e imersivo da <span ><a className="link" href="https://www.reprograma.com.br/" target="_blank" rel="noopener noreferrer"> reprograma </a></span> com foco em UX Design,  HTML, CSS, Javascript, Git & Github, Scrum, JQuery, Lógica de programação, bibliotecas e frameworks como Sass, React e Bootstrap. Desenvolvemos desde projetos de aplicações à entrega de site implementado para cliente como voluntariado.
+        <h3 >Hello, world!</h3>
+            <div className="about" >
+            <p>
+            Sou uma desenvolvedora focada e organizada, contribui durante 10 anos na área  comercial e TI o que me possibilitou desenvolver soft skills tais como trabalho em equipe e planejamento estratégico. Estou em transição de carreira para desenvolvimento Front-end pois descobri vocação e entusiasmo pela profissão.
+            </p>
+            <p>
+            
+            Participei do Bootcamp integral e imersivo da <span ><a className="link" href="https://www.reprograma.com.br/" target="_blank" rel="noopener noreferrer"> reprograma </a></span> com foco em UX Design,  HTML, CSS, Javascript, Git & Github, Scrum, JQuery, Lógica de programação, bibliotecas e frameworks como Sass, React e Bootstrap. Desenvolvemos desde projetos de aplicações à entrega de site implementado para cliente como voluntariado.
+            </p>     
+            <p className="curriculo"> <a className="link" href={curriculo} download>Clique aqui para download do curriculo completo em PDF</a></p>
                     
-                    <p className="curriculo"> <a className="link" href={curriculo} download>Clique aqui para download do curriculo completo em PDF</a></p>
-                    
-   </p>
+   </div>
 
     </div>
 

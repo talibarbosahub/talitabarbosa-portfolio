@@ -1,3 +1,6 @@
+.nav {
+    flex-wrap: nowrap;
+}
 .nav-style {
     background-color: #393e46;
     width: 100%;
@@ -16,11 +19,10 @@
     
 }
 
-@media (max-width:320px){
-    .nav-link{font-size: 0.7rem;
+@media (max-width:375px){
+    .nav-link{
+        font-size: 0.7rem;
     }
-    .nav {
-        flex-wrap: nowrap;
-    }
+   
     
 }

@@ -5,17 +5,18 @@
     justify-content: space-evenly;
     color: #0e3150;
     padding-bottom: 5%;
+    text-align: center;
 
 }
 
 .section {
     color: #0e3150;
-    text-align: center;
+    text-align: webkit-auto;
 }
 
 .container-habilities{
     background-color: #eeeeee;
-    text-align: center;
+    text-align: auto;
 }
 
 .section_about{
@@ -27,7 +28,7 @@
 
 .about {
     padding: 0% 20%;
-    text-align: center;
+    text-align: auto;
 }
 
 .link {
@@ -42,6 +43,7 @@
 
 .curriculo {
     padding-top: 20px;
+    text-align: center;
 }
 .icon {
     font-size: 3rem;
@@ -64,4 +66,23 @@
         padding: 20px;
         justify-content: space-between;
     }
+    .about {
+        padding: 0% 9%;
+    }
+}
+
+
+@media (min-width:375px){
+    .habilities {
+        padding: 7%;
+    
+    }
+}
+
+@media (min-width:425px){
+    .habilities {
+        padding: 35px;
+        font-size: 19px;
+    }
+
 }
