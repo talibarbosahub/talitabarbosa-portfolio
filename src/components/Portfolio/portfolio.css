@@ -8,19 +8,48 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 10px 50px;
-    padding-bottom: 15px;
+    padding: 10vh;
+    background-color: #00ADB5;
+    
 }
 
-.section_portifolio{
+.section_portfolio{
+   /* text-align: center;
+    background-color: #00ADB5;
+    padding-bottom: 7vh;*/
+    color: white;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    color: white;
     text-align: center;
+    background: linear-gradient(
+        0.1turn
+        ,#00ADB5, #343a40 80%);
+        
+        
 }
+
+
+.quote {    
+    text-align: left;
+    width: 80%;
+}
+
+h4{
+    font-size: 1.75rem; 
+}
+
+
 
 @media (max-width:768px){
     .card {margin-top: 10px;
     }
     
 }
+
+
 
 @media (min-width:1024px){
     .cards-projetos {

@@ -1,9 +1,12 @@
 .informations{
-    background-color: #00adb5;
+
     color: white;  
-    display: flex;  
-    justify-content: space-evenly;
+    display: grid;
+    
     padding: 3%;
+    background: linear-gradient(
+        0.1turn
+        ,#00ADB5, #343a40 80%);
 }
 
 .autor__media{
@@ -15,24 +18,25 @@
 
 
 .icons {
-    display: flex;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: center;
+  
 }
 .icon-footer{
-    font-size: 3rem;
-    margin-right: 5px;
+    font-size: 2rem;
+    padding: 10px;
     color: #EEEEEE;
 }
 
 .icon-footer:hover{
-    color:#393E46;
+    color:#00ADB5;
 }
 
 
 .copyright {
     font-size: 0.8rem;
     text-align: center;
-    background-color: #0e3150;
-    color: white;
+    background-color: #343a40;
+    color: #00ADB5;
 }
             

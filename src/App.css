@@ -2,10 +2,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
+  
 }
 
 
-h3 {
-  text-align: center;
-  padding: 9vh;
-}

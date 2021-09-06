@@ -2,8 +2,11 @@
     flex-wrap: nowrap;
 }
 .nav-style {
-    background-color: #393e46;
+    /* background-color: #393e46; */
     width: 100%;
+    background: linear-gradient(
+        0.1turn
+        ,#00ADB5, #343a40 70%);
    
 }
 

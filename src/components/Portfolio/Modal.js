@@ -12,8 +12,8 @@ function Example(props) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Ver mais
+      <Button aria-label="Botão que abre um modal com a descrição do projeto e links para acessar a pagina e repositorio" variant="primary" onClick={handleShow}>
+      <i class="fas fa-plus"></i>
       </Button>
 
       <Modal show={show} onHide={handleClose}>
@@ -27,8 +27,11 @@ function Example(props) {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button href={props.site} target="_blank">
-            {props.btntitle}
+          <Button aria-label="Botão para acessar o projeto" href={props.site} target="_blank">
+          Acessar <i class="fas fa-external-link-alt"></i>
+          </Button>
+          <Button aria-label="Botão para acessar o repositorio no Github" href={props.git} target="_blank">
+            <i class="fab fa-github-alt"></i>
           </Button>
         </Modal.Footer>
       </Modal>

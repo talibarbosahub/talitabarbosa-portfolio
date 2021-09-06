@@ -1,23 +1,18 @@
 .header-style {
-    background-color:#00adb5;
-    width: 100%;
-    margin: 0 auto;
+    background: linear-gradient(transparent, #212529 80%), url(../../assets/header.jpg) center no-repeat;
+    background-size: cover;
     text-align: center;
-    padding-top: 3rem;
-    padding-Bottom: 3rem;
+    padding: 11rem 2rem 5rem 2rem;
+    color: white;
+    background-position-y: 71%;
 }
+
+
 .profile{
-    height: 50vh;
+    height: 35vh;
     margin-bottom: 30px;
     
 }
-
-/* .break {
-    max-width: 20vw;
-    border: 1px solid;
-    color:#0e3150;
-} */
-
 
 .code-icon{
     color: white;
