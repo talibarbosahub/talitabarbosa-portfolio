@@ -1,6 +1,6 @@
 
 import { Image } from 'react-bootstrap'
-import new_profile from '../../assets/new_profile_pic.jpeg'
+import new_profile from '../../assets/new_profile_pic.jpg'
 import React, { Fragment } from 'react';
 import './header.css'
 
