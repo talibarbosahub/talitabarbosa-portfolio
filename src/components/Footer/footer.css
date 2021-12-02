@@ -6,7 +6,7 @@
     padding: 3%;
     background: linear-gradient(
         0.1turn
-        ,#00ADB5, #343a40 80%);
+        ,#00ADB5, #000000 80%);
 }
 
 .autor__media{
@@ -36,7 +36,7 @@
 .copyright {
     font-size: 0.8rem;
     text-align: center;
-    background-color: #343a40;
+    background-color: #000000;
     color: #00ADB5;
 }
             

@@ -61,7 +61,7 @@ export const Sobre = () => (
     <div id="Sobre" className="section_about">
         <h3 tabindex ="4"> <i className=" code-icon fas fa-code"></i> Hello, world!</h3>
         <div className="about" >
-            <p tabindex ="4">
+            <p className="info-box" tabindex ="4">
                 Contribui durante 10 anos na área comercial e após me tornar mãe iniciei a transição de carreira para tecnologia através do bootcamp front-end da <span ><a className="link" href="https://www.reprograma.com.br/" target="_blank" rel="noopener noreferrer"> reprograma </a></span> em parceria com o facebook. Sou engenheira de software no Itaú Unibanco, onde participei de projetos com microfront-ends (SPA Angular), back-end ( Java Spring) e faço parte da modernização com AWS, DevOps e Insfraestructure as a service. Sou bootcamp teach lead na reprograma e trabalho diariamente para trazer mais diversidade e equidade de gênero para nossa área de TI. Como uma entusiasta da acessibilidade na web, palestro sobre o tema de como fazer sites mais acessíveis e também sobre minha experiência de transição de carreira na maternidade.
             </p>
             {/* <p className="curriculo"> <a className="link" href={curriculo} download>Clique aqui para download do curriculo completo em PDF</a></p> */}

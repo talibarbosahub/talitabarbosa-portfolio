@@ -17,8 +17,8 @@ const Portfolio = (props) => (
 
   <Fragment id="cards">
     <div id="Portifolio"className="section_portfolio">
-      <h4 tabindex ="5"><i class="  fas fa-cogs"></i> Projetos </h4>
-      <div className="quote"><p > A programação me ensinou que coisas grandes são alcançadas não todas de uma vez mas aos poucos e que nunca devemos ter 
+      <h4 tabindex ="5"><i class=" fas fa-cogs"></i> Projetos </h4>
+      <div className="quote"><p className="info-box" > A programação me ensinou que coisas grandes são alcançadas não todas de uma vez mas aos poucos e que nunca devemos ter 
 medo de começar de novo, por que nunca começamos do zero mas sim da experiência</p>  </div>
       
       </div>

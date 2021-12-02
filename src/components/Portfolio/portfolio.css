@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10vh;
-    background-color: #00ADB5;
+    background-color: #000000;
     
 }
 
@@ -26,7 +26,7 @@
     text-align: center;
     background: linear-gradient(
         0.1turn
-        ,#00ADB5, #343a40 80%);
+        ,#00ADB5, #000000 80%);
         
         
 }
@@ -60,4 +60,16 @@ h4{
         margin-right: 10px;
     }
     
+}
+
+@media (max-width:768px){
+    .quote {
+        width: 95%;
+    }
+    .section_portfolio{
+        display: block;
+    }
+    h4{
+        padding: 9vh;
+    }
 }
